@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Core\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj": {}
+    "D:\\Core\\Core-Practice\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj": {}
   },
   "projects": {
-    "D:\\Core\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj": {
+    "D:\\Core\\Core-Practice\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Core\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj",
+        "projectUniqueName": "D:\\Core\\Core-Practice\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj",
         "projectName": "MyFirstMVCApplication",
-        "projectPath": "D:\\Core\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj",
+        "projectPath": "D:\\Core\\Core-Practice\\MyFirstMVCApplication\\MyFirstMVCApplication\\MyFirstMVCApplication.csproj",
         "packagesPath": "C:\\Users\\Mahesh\\.nuget\\packages\\",
-        "outputPath": "D:\\Core\\MyFirstMVCApplication\\MyFirstMVCApplication\\obj\\",
+        "outputPath": "D:\\Core\\Core-Practice\\MyFirstMVCApplication\\MyFirstMVCApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
