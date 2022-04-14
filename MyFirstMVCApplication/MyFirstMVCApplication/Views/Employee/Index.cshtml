@@ -4,12 +4,9 @@
     ViewData["Title"] = "Index Page";
 }
 
-<h1>Index</h1>
+<h4>Employee Register</h4>
 
-<p>
-    <a asp-action="AddorEdit">Create New</a>
-</p>
-<table class="table">
+<table class="table table-hover">
     <thead>
         <tr>
             <th>
@@ -24,7 +21,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Location)
             </th>
-            <th></th>
+            <th>
+                <a asp-action="AddorEdit" class="btn btn-outline-success">Employee</a>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -43,9 +42,8 @@
                 @Html.DisplayFor(modelItem => item.Location)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.EmployeeID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.EmployeeID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.EmployeeID">Delete</a>
+                <a asp-action="AddorEdit" asp-route-id="@item.EmployeeID"><i i class="fa fa-plus-marker fa-lg"></i> Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.EmployeeID"class="text-danger ml-1" onclick="return confirm('Are you Sure to delete?')" >  Delete</a>
             </td>
         </tr>
 }

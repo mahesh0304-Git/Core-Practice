@@ -9,11 +9,11 @@ namespace MyFirstMVCApplication.Models
         public int EmployeeID { get; set; }
 
         [Column(TypeName ="nvarchar(150)")]
-        [Required]
+        [Required ( ErrorMessage = "Employee Name cannot be blank!")]
         [DisplayName("Full Name")]
         public string FullName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Employee ID is Mandatory!")]
         [Column(TypeName = "varchar(20)")]
         [DisplayName("Emp ID")]
         public string EmpID { get; set; }
