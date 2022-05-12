@@ -60,6 +60,7 @@ namespace MyFirstMVCApplication.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             var emp =await _context.Employees.FindAsync(id);
+            var emp1 = _context.Employees.Where(e => e.FullName.en);
             _context.Employees.Remove(emp);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -67,7 +68,7 @@ namespace MyFirstMVCApplication.Controllers
 
         private bool EmployeeExists(int id)
         {
-            return _context.Employees.Any(e => e.EmployeeID == id);
+            return _context.Employees.Any(a => a.EmployeeID == id);
         }
     }
 }
